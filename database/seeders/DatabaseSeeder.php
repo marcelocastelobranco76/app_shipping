@@ -14,11 +14,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        \App\Models\Customer::create([
-            'name' => 'Cliente 4',
-            'email' => 'cliente4@teste.com.br',
-            'password' => bcrypt( 'senha123456' ),
-            'phone' => '51999647408'
+        \App\Models\Product::create([
+            'name' => 'Produto 10',
+            'sku' => 'P00010',
+            'price' => 200.10
         ]);
     }
 }
