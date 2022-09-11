@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\PedidoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,13 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/pedidos/listar', function () {
+    return view('pedidos');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+Route::get('/pedidos/listar', [PedidoController::class, 'listar']);
+
+//require __DIR__.'/auth.php';
+
+
