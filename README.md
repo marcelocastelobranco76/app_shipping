@@ -76,11 +76,9 @@ Retorno em caso de sucesso:
 
 ## Como executar os endpoints e listar os pedidos
 
-<p align="center">Para executar os endpoints deve-se:
-1-) Rodar as migrations para criar as tabelas
-2-) Na raiz do sistema executar o comando php artisan serve 
-3-) Executar os endpoints no Postman on Insomnia (testei no Insomnia)
-4-) Acessar http://127.0.0.1:8000/pedidos/listar para listar todos os pedidos de todos os clientes
-
-</p>
+<p align="center">Para executar os endpoints deve-se:</p>
+<p>1-) Rodar as migrations para criar as tabelas</p>
+<p>2-) Na raiz do sistema executar o comando php artisan serve</p> 
+<p>3-) Executar os endpoints no Postman on Insomnia (testei no Insomnia)</p>
+<p>4-) Acessar http://127.0.0.1:8000/pedidos/listar para listar todos os pedidos de todos os clientes</p>
 
